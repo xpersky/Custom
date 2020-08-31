@@ -83,7 +83,7 @@
                     <item name="label" xsi:type="string" translate="true">Pressure</item>
                 </item>
             </argument>
-        </column>
+        </column> 
         <column name="timestamp" class="Magento\Ui\Component\Listing\Columns\Date">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">

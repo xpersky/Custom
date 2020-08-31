@@ -3,6 +3,7 @@
 <module name="Custom_Weather" setup_version="0.0.2"> 
     <sequence> 
         <module name="Magento_Backend"/>
+        <module name="Magento_Ui"/>
     </sequence>
 </module>
 </config>

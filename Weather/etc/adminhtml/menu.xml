@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Custom_Weather::admin" title="Pogoda" module="Custom_Weather" sortOrder="51" resource="Custom_Weather::admin"/>
-        <add id="Custom_Weather::historical" title="Dane Historyczne" module="Custom_Weather" sortOrder="10" action="Custom_Weather/historical" resource="Custom_Weather::historical" parent="Custom_Weather::admin"/>
+        <add id="Custom_Weather::admin" title="Weather" module="Custom_Weather" sortOrder="1000" resource="Custom_Weather::admin" action="custom_weather/historical/index"/>
     </menu>
 </config>

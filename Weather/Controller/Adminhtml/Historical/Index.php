@@ -13,7 +13,7 @@ class Index extends \Magento\Backend\App\Action
 	{
 		parent::__construct($context);
 		$this->resultPageFactory = $resultPageFactory;
-	}
+    }
 
 	public function execute()
 	{

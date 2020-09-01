@@ -1,7 +1,7 @@
 # Custom Magento 2.3.5 Module
 
 Uses https://openweathermap.org/api to provide weather information in Lublin  
-Cron runs its schedule every 10 minutes to fetch actual weather information  
+Cron runs its schedule every 10 minutes to fetch current weather information  
 Weather information is displayed in the footer  
 Historical weather data can be accessed from Magento admin backend  
 

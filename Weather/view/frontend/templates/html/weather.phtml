@@ -1,3 +1,6 @@
 <small class="copyright">
-    <span><?= $this->getWeather(); ?></span>
+    <span style="margin-right:1rem;"><? $this->getTemperature(); ?> &#x2103;</span>
+    <span style="margin-right:1rem;"><img style="width:20px;" src="<? $this->getIcon(); ?>" alt="icon"></span>
+    <span style="margin-right:1rem;"><? $this->getDescription(); ?></span>
+    <span style="margin-right:1rem;"><? $this->getPressure(); ?>hPa</span>
 </small>
